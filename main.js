@@ -1,6 +1,6 @@
 // IP address of AWS server
 const IPADDR = '3.130.99.109';
-const PORT = '80';
+const PORT = '443';
 
 function display_help(){
     document.getElementById("help-overlay").style.display = "flex";
