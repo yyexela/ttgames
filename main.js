@@ -17,7 +17,7 @@ function submit_button(){
     console.log("Username: \"" + name + "\", code: \"" + code +"\"");
 
     // Establish websocket connection
-    var aWebSocket = new WebSocket('ws://' + IPADDR + ':' + PORT);
+    var aWebSocket = new WebSocket('wss://' + IPADDR + ':' + PORT);
 
     // Install event handlers
     aWebSocket.onclose = function(event) {
